@@ -1,55 +1,213 @@
-/*Tablet*/
-@media (max-width: 1000px){
-	header {
-		height: 60px;
- 		width: 100%;
-	}
-	.header-left .logo-header {
-		height: 60px;
-		width: 200;
-		position: fixed;
-	}
-	.header-right a {
-		font-size: 10px;
-	}
-	footer-left {
-		height: 60px;
- 		width: 100%;
-	}
-	.footer-left .logo-header {
-		height: 60px;
-		width: 200;
-		position: fixed; 
-	}
-	.footer-right p {
-		font-size: 10px;
-	}
+/* Tablet */
+@media (max-width: 1000px) {
+  /* ASRI */
+  header {
+    height: 60px;
+    width: 100%;
+  }
+  .header-left .logo-header {
+    height: 60px;
+    width: 200;
+    position: fixed;
+  }
+  .header-right a {
+    font-size: 10px;
+  }
+  footer-left {
+    height: 60px;
+    width: 100%;
+  }
+  .footer-left .logo-header {
+    height: 60px;
+    width: 200;
+    position: fixed;
+  }
+  .footer-right p {
+    font-size: 10px;
+  }
+
+  /* DAIS */
+  .main {
+    width: 50%;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .copy-container h1 {
+    font-size: 12px;
+  }
+  .copy-container b {
+    font-size: 50px;
+  }
+  .copy-container p {
+    font-size: 10px;
+  }
+  .grapich {
+    font-size: 9px;
+  }
+  .website {
+    font-size: 9px;
+  }
+  .ui {
+    font-size: 9px;
+  }
+
+  /* AULIA */
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  /* BELLA */
+  .ava-icon {
+    width: 183px;
+    height: 200px;
+  }
+  .ava-item h3 {
+    font-size: 16px;
+  }
+  .ava-item p {
+    font-size: 12px;
+  }
+  .sosmed {
+    font-size: 14px;
+    padding: 3px 8px;
+  }
+
+  /* DINDA */
+  .utama .text .box .contact-submit {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
 
-/*Smartphone*/
-@media (max-width: 670px){
-	header {
-		height: 60px;
- 		width: 100%;
-	}
-	.header-left .logo-header {
-		height: 60px;
-		width: 180px;
-		position: fixed;
-	}
-	.header-right a {
-		font-size: 10px;
-	}
-	footer-left {
-		height: 60px;
- 		width: 100%;
-	}
-	.footer-left .logo-footer {
-		height: 60px;
-		width: 180px;
-		position: fixed; 
-	}
-	.footer-right p {
-		font-size: 8px;
-	}
+/* Smartphone */
+@media (max-width: 670px) {
+  /* ASRI */
+  header {
+    height: 60px;
+    width: 100%;
+  }
+  .header-left .logo-header {
+    height: 60px;
+    width: 180px;
+    position: fixed;
+  }
+  .header-right a {
+    font-size: 10px;
+  }
+  footer-left {
+    height: 60px;
+    width: 100%;
+  }
+  .footer-left .logo-footer {
+    height: 60px;
+    width: 180px;
+    position: fixed;
+  }
+  .footer-right p {
+    font-size: 8px;
+  }
+
+  /* DAIS */
+  .main {
+    width: 100%;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .copy-container h1 {
+    font-size: 8px;
+    line-height: 6px;
+  }
+  .copy-container b {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .copy-container p {
+    font-size: 6px;
+    line-height: 20px;
+  }
+  .grapich {
+    font-size: 5px;
+    line-height: 5px;
+  }
+  .website {
+    font-size: 5px;
+    line-height: 5px;
+  }
+  .ui {
+    font-size: 5px;
+    line-height: 5px;
+  }
+
+  /* AULIA */
+  .service {
+    width: 100%;
+  }
+  /* BELLA */
+  .ava-lines .ava-item {
+    width: 50%;
+  }
+  .line3 .ava-item {
+    width: 100%;
+  }
+  .ava-icon {
+    width: 153px;
+    height: 167px;
+  }
+  .ava-item h3 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .ava-item p {
+    font-size: 10px;
+  }
+  .sosmed {
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-top: 5px;
+  }
+
+  /* DINDA */
+  .utama .text .box .contact-submit {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  /* BELLA */
+  .team-wrapper {
+    padding: 40px 30px 10px 30px;
+  }
+  .ava-lines .ava-item {
+    width: 50%;
+  }
+  .line3 .ava-item {
+    width: 100%;
+  }
+  .ava-icon {
+    width: 100px;
+    height: 109px;
+  }
+  .ava-item h3 {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .ava-item p {
+    font-size: 8px;
+  }
+  .sosmed {
+    font-size: 10px;
+    padding: 2px 5px;
+    margin-top: 5px;
+  }
+
+  /* DINDA */
+  .utama .text .box .contact-submit {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
