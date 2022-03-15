@@ -1,0 +1,66 @@
+/*Kode untuk Header - ASRI*/
+header {
+	height: 75px;
+ 	width: 100%;
+  	background-color: #E5E5E5;
+  	position :fixed;
+  	top: 0;
+  	z-index: 10;
+}
+
+.header-left .logo-header {
+	height: 80px;
+	width: 267;
+	margin-left: 80px;
+	background-blend-mode: darken;
+	float: left;
+}
+
+.header-right a {
+	float: right;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 9px;
+	letter-spacing: 0.4px;
+	text-align: left;
+	margin-top: 35px;
+	margin-right: 35px;
+	color: #474747;
+}
+
+/*Kode untuk Footer - ASRI*/
+footer {
+	height: 75px;
+	
+	background-color: #E5E5E5;
+}
+
+.footer-left .logo-footer {
+	height: 80px;
+	width: 267;
+	margin-left: 80px;
+	background-blend-mode: darken;
+	float: left;
+}
+
+.footer-right {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: rgba(0, 0, 0, 0.7)
+}
+
+p {
+	float: right;
+	padding-right: 80px;
+	margin-top: 30px;
+}
+
+.top-wrapper {
+	padding-top: 149px;
+}
