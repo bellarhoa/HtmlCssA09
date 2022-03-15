@@ -1,0 +1,55 @@
+/*Tablet*/
+@media (max-width: 1000px){
+	header {
+		height: 60px;
+ 		width: 100%;
+	}
+	.header-left .logo-header {
+		height: 60px;
+		width: 200;
+		position: fixed;
+	}
+	.header-right a {
+		font-size: 10px;
+	}
+	footer-left {
+		height: 60px;
+ 		width: 100%;
+	}
+	.footer-left .logo-header {
+		height: 60px;
+		width: 200;
+		position: fixed; 
+	}
+	.footer-right p {
+		font-size: 10px;
+	}
+}
+
+/*Smartphone*/
+@media (max-width: 670px){
+	header {
+		height: 60px;
+ 		width: 100%;
+	}
+	.header-left .logo-header {
+		height: 60px;
+		width: 180px;
+		position: fixed;
+	}
+	.header-right a {
+		font-size: 10px;
+	}
+	footer-left {
+		height: 60px;
+ 		width: 100%;
+	}
+	.footer-left .logo-footer {
+		height: 60px;
+		width: 180px;
+		position: fixed; 
+	}
+	.footer-right p {
+		font-size: 8px;
+	}
+}
